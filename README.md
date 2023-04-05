@@ -15,7 +15,7 @@ This project rebuilds Google's beta XCFrameworks so they can be added as a depen
 
 ```swift
 dependencies: [
-  .package(url: "https://github.com/darrarski/GoogleMaps-SP.git", .upToNextMinor(from: "7.1.0"))
+  .package(url: "https://github.com/jonathanjr3/GoogleMaps-SP.git", .upToNextMinor(from: "7.4.0"))
 ]
 ```
 
@@ -26,7 +26,7 @@ dependencies: [
   - [GoogleMaps SDK](https://developers.google.com/maps/documentation/ios-sdk/config#install-the-xcframework)
   - [GooglePlaces SDK](https://developers.google.com/maps/documentation/places/ios-sdk/config#install-the-xcframework)
 3. Unzip and put downloaded XCFrameworks inside `GoogleFrameworks` directory
-4. Run `make_xcframeworks.sh` script.
+4. Run `make_xcframeworks.sh` script with -x as argument.
 5. You can find your new XCFrameworks in `Build` directory.
 
 ## License & Copyright
